@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Wilkysta';
+    src: url('fonts/wilkysta.woff') format('woff'), /* Replace with the correct file path and format */
+         url('fonts/wilkysta.woff2') format('woff2'); /* Add more formats if needed */
+  }  
+
+body{
+    position: relative
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #B1AAAA;;
+    
+}
+.logo{
+    width:220px;
+    height: 78px;
+
+}
+
+.centerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs{
+    color: #2F2F2F;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px;
+    padding-top: 5px;
+}
+
+.rightside{
+    padding-right: 15px;
+}
+
+.signup{
+    border-radius: 7px;
+    background: #000;
+    width: 90px;
+    height: 40px;
+    flex-shrink: 0;
+    color: white;
+    font-weight: 700;
+}
+
+
+.container{
+    display: flex;
+}
+.left-main{
+    width: 50%;
+}
+
+.right-main{
+    width: 50%;
+}
+
+.right-main .lady{
+    width: 500px;
+    height: 650px;
+    flex-shrink: 0;
+    z-index: 101;
+    position: absolute;
+    top:0px;
+    padding-left: 70px
+}
+
+.semicircleshape{
+    width: 500px;
+    height: 450px;
+    transform: rotate(-8.401deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 200px;
+    left: calc(50% + 100px)
+}
+
+.brownfilledshape{
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 250px;
+    left: calc(50% + 230px)
+}
+
+.glow{
+    border-radius: 784px;
+    background: rgba(193, 174, 160, 0.80);
+    filter: blur(105px);
+    width: 300px;
+    height: 550px;
+    flex-shrink: 0;
+    position: absolute;
+    left: calc(50% + 50px)
+}
+
+.mainstuff{
+    padding: 100px 0px 0px 30px;
+}
+
+.title-text{
+    color: #2F2F2F;
+    font-family: 'Wilkysta';
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112px; /* 116.667% */
+}
+
+.sub-title{
+    width: 540px;
+    padding-top: 20px;
+    color: #2F2F2F;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+}
+

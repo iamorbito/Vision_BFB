@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    padding-left: 30px;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img{
+    height: 50px;
+    cursor: pointer;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.middle div{
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.pp{
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shop-div{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.shoph, .filterh{
+    font-family: "Public Sans";
+    font-size: 22px;
+    font-weight: 800;
+}
+
+span{
+        font-family: "Public Sans";
+        font-size: 14px;
+        font-weight: 400;
+    
+}
+.filterh{
+    padding-top: 50px;
+    font-size: 19px;
+    padding-bottom: 20px;
+
+}
+
+.categories-text{
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.shopt{
+    font-family: "Public Sans";
+    font-weight: 200;
+}
+
+.maincontainer{
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.filters{
+    width: 40%;
+}
+
+.products{
+    width: 60%;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns:  200px 200px 200px;
+    grid-gap: 10px;
+    margin-top: 20px;
+
+}
+
+.product img{
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product .title {
+    color: #000;
+    font-family: "Public Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 164.706% */
+    letter-spacing: -0.4px;
+}
+
+.price{
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.product:hover{
+    cursor: pointer;
+}
+
